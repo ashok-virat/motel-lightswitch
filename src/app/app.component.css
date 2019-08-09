@@ -1,0 +1,120 @@
+.container-fluid{
+    width:100%;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../assets/Night_3.png"); 
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:table;
+    height:100vh;
+    
+}
+.navbar {
+    margin-top:10px;
+    text-align: center;
+}
+.lightswitch {
+    text-align: center;
+}
+.brand-name {
+    color:pink;
+    font-size:17px;
+    font-style: italic;
+    opacity: 0.5;
+    text-align: center;
+}
+button {
+    background-color:violet;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 1s;
+    margin:5px;
+    text-align: center;
+}
+button:hover {
+    background-color:black;
+    color:white;
+}
+.imglayer {
+    position:absolute;
+    top:50%;
+    left:22%;
+}
+.imglayer img{
+width:59vw;
+}
+
+h4 {
+    font-size:5rem;
+    color:grey;
+    margin:0.4rem;
+    padding:0.1rem;
+    margin-top:5rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h4 span {
+    padding:10px;
+    text-align: center;
+}
+
+@media only screen and (max-width:500px){
+    .imglayer img{
+        width:85vw;
+        }
+    .imglayer {
+        position:absolute;
+        top:50%;
+        left:10%;
+    }
+ 
+  div .motorbike {
+    animation:walk 1s steps(12) infinite,
+             forward 5s linear infinite; 
+             margin-top:100px;
+}
+@keyframes walk {
+    0% {
+          background-position:0px;
+    }
+    100% {
+        background-position:100px;
+    }
+
+}
+@keyframes forward {
+    0% {
+        transform:translateX(-10px)
+    }
+    100% {
+        transform: translateX(200px)
+    }
+}
+
+        
+}
+.motorbike {
+    height:100px;
+    margin-top:280px;
+    animation:walk 1s steps(12) infinite,
+             forward 7s linear infinite; 
+}
+@keyframes walk {
+    0% {
+          background-position:0px;
+    }
+    100% {
+        background-position:3000px;
+    }
+
+}
+@keyframes forward {
+    0% {
+        transform:translateX(-100px)
+    }
+    100% {
+        transform: translateX(1500px)
+    }
+}
+
+
+
+
